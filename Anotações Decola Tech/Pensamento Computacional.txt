@@ -1,0 +1,188 @@
+PENSAMENTO COMPUTACIONAL:
+
+	INTRODUÇÃO AO PENSAMENTO COMPUTACIONAL:
+		
+		- Não se restringe ao eixo computacional
+		- Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no
+		computador
+		- Pensamento sistemático e eficiente tanto na formulação quanto na resolução de problemas
+		- Tem que ser usado de uma forma que um ser humano e uma máquina sejam capazes de resolver
+		- Pensamento computacional não é uma disciplina acadêmica, e sim uma habilidade generalista, ou seja, não é utilizado apenas no eixo 
+		da área computacional, poder usado, tambem, em matemática, leitura, escrita etc. 
+
+		O pensamento computacional está baseado em 4 pilares:
+			1- Decomposição = Dividir um problema complexo em subproblemas
+				Ex: A maneira que montamos um quebra-cabeça e a receita de um bolo
+
+			2- Reconhecimento de padrões = Identificar padrões/similaridades ou tendências
+			
+			3- Abstração = Extrapolar o conceito do problema para uma forma generalista, ou seja, pegamos o problema do mundo concreto e 
+			levamos para o mundo das idéias
+				Ex: A formula da circunferencia "C = 2* Pi * r". Com essa fórmula podemos saber a circunferencia de QUALQUER circunferencia
+				que exista, idependente de seu tamanho.
+
+			4- Design de Algoritmos = Automatizar/ Definir passo a passo a solução do problema
+				Ex: Input  -> Operator ->  Output
+				    Dado uma entrada nós temos um sucessão de operações (que podem ser realizada de forma sequêncial) e vão me gerar um 
+				    resultado.
+				
+			- Isso tudo é um processo contínuo, precisamos estar sempre refinando a solução/resolução de um problema.
+				. Definir uma solução
+				. Testar a solução
+				. Aperfeiçoamento da solução encontrada
+
+				TESTE - ANÁLISE - REFINAMENTO (PROCESSO CONTÍNUO)
+
+
+	HABILIDADES COMPLEMEMTARES:
+
+		Raciocínio Lógico:
+
+			- Raciocínio Lógico é uma forma de pensamento estruturado, ou raciocínio que permite encontrar a conclusão ou determinar a resolução
+			de um problema
+				. Habilidade de treinamento, ou seja, da mesma forma que treinamos um músculo para que ele possa ser desenvolvido, devemos,
+				tambem, treinar o racíocinio lógico para que ele esteja sempre "afiado"
+
+			- O raciocínio lógico pode estar classificado dentro de três grupos:
+
+				. Indução = Geralmente vem a partir de fenômenos observados, e que a partir desse fenômenos podemos extrapolar e determinar
+				 leis e teorias relacionadas aquele fenômeno.
+					Obs: É muito utilizado em ciências experimentais
+
+				. Dedução = O trabalho inverso da indução, onde a partir de leis e teorias nós deduzimos previsões e explicações para um
+				determinado fenômeno
+					Obs: É muito utilizado em ciências exatas
+
+				. Abdução = A partir de uma conclusão obtemos uma premissa/ A partir de algo observado suponhamos alguma coisa
+					Ex: A grama está molhada, logo deve ter chovido
+					Obs: É muito utiliazado em processo investigativo
+
+
+	PILARES:
+
+		DECOMPOSIÇÃO:
+
+			- Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto, problemas mais fáceis e gerenciáveis.
+			
+			Estratégia:
+
+				Análise
+				- Processo de quebrar e determinar partes menores e gerenciáveis
+					. Estudar, explorar
+					. Decompor em elementos constituintes
+					. Realizar exame detalhado
+					
+				Síntese
+				- Combinar os elementos recompondo o problema original de maneira que ele faça sentido
+					. Consiste em reunir elementos distintos em um único elemento
+					. Processo de reconstrução
+					. Fundir elementos de maneira coerente
+
+			- A ordem de execução dessas tarefas menores pode ser SEQUÊNCIAL ou PARALELA, vai depender do contexto e do que precisamos.
+			- Se as tarefas forem SEQUÊNCIAS provavelmente terá dependência entre as tarefas e deverão ser executadas em filas
+			- Se as tarefas forem PARALELAS podemos executar as tarefas concomitantemente de forma que teremos mais eficiencia e gastaremos
+			menos tempo
+
+			Como decompor?
+				- Identificar ou coletar dados
+				- Agregar os dados
+				- Entregar a funcionalidade
+
+			Ex 1: Cozinhar
+				. Identificar os ingredientes
+				. Determinar as estapas (sequêncial ou paralelo)
+				. Executar cada etapa
+				. Agregar os ingredientes para finalizar (recompor com coerência)
+
+			Ex 2: Criar um app
+				. Finalidade
+				. Interface
+				. Funcionalidades
+				. Pré-requisitos		
+
+
+		PADRÕES:
+
+			- Modelo base/ referencia
+			- Estrutura invariante
+			- Repetição	
+
+			- Reconhecemos os padrõs por similaridades ou diferenças
+
+			Por que determinar padrôes?
+				- Generalizar, com o objetivo de obter resolução para problemas diferentes
+
+			Como o ser humano encontra padrões?
+				- Atraves do grau de similaridade
+				- Grupos conhecidos X Objeto desconhecido
+
+			Como o computador reconhece padrões?
+				- Por comparação
+				- Ou seja, se não houver representação de atributos para que a maquina consiga aprender aquele conceito associado ao objeto
+				e ter esses dados armazenados, o computador não conseguirá fazer comparações, pois não terá dados para serem comparados.
+
+			Decetar padrões:
+				- Extrair características
+				- Classificação de dados
+
+		ABSTRAÇÃO:
+
+			Abstrair = Observar, um ou mais elementos, avaliando características e propriedades em separado
+			Abstração = Processo intelectual de isolamento de um objeto da realidade
+			Generalizar = Tornar algo geral, mais amplo, extensão
+
+			Generalização / Abstração
+
+			- Generalização, na lógica, é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos
+			similares
+
+			Como classificar os dados?
+				. Características
+				. Pontos essenciais
+				. Generalizar X Detalhar
+
+			Conceitos baseados em abstração:
+				. Estrutura de dados (arvores, listas, grafos)
+				. Linguagens de programação ...
+
+		ALGORITMOS:
+		
+			- Para o computador funcionar nós precisamos determinar instruções para ele executar, pois ele não opera sozinho
+			- O computador precisa de instruções detalhadas para que ele possa executar determinada instrução com exito
+			- O computador recebe, manipula, armazenar e processar os dados
+
+			Processo de resolução de problemas "step by step" (passo a passo) utilizando instruções:
+				Instruções
+				. O que precisa ser feito?
+				. Qual a ordem de execução?
+
+			- Os algoritmos precisam ser entendidos por humanos e pela máquina
+
+			Desenvolvimento do programa:
+				- Análise
+					. Estudo e definição dos dados de entrada e saída
+
+				- Algoritmo
+					. Descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo
+			
+				- Codificação
+					. O algoritmo é codificado de acordo com a linguagem de programação escolhida
+
+			- Então a partir disso nós temos:
+				. Sequência de passos com objetivo definido
+				. Execução de tarefas específicas
+				. Conjunto de operações que resultam em uma sucessão finita de ações
+
+			Ex: Fazer uma receita de bolo, trocar uma lâmpada...
+				- Instruções executadas passo a passo para concluir uma determinada tarefa
+
+			Como construit um algoritmo:
+				- Compreenção do problema
+				- Definição dos dados de entrada
+				- Definir processamento
+				- Definir dados de saída
+				- Utilizar um metodo de construção
+				- Teste e diagnóstico
+			
+
+				

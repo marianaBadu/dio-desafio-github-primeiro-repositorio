@@ -1,0 +1,125 @@
+LINGUAGEM DE PROGRAMAÇÃO:
+
+	INTRODUÇÃO A LINGUAGEM DE PROGRAMAÇÃO:
+
+		O que é uma linguagem de programação?
+			- Método padronizado composto por um coonjunto de regras sintáticas e semânticas de implementação de um código fonte (conjunto de palavras
+			e regras).
+
+
+	COMO UM COMPUTADOR ENTENDE O PROGRAMA:
+
+		- Codigo fonte (as linguagens de programação)
+			. O código fonte vai ser traduzido ou interpretado
+
+		- Um programa é um amontoado de palavras, se não for possivel que um computador entenda, por conta disso existe o processo de tradução 	
+		que esta relacionado ao processo de compilação
+		- Dado uma linguagem de alto nivel, ela vai ser enviada para o compilador que irá executar a análise do programa e o compilador irá traduzir
+		a linguagem de alto nivel em um código de baixo nivel (linguagem de máquina)
+
+		Tradução:
+		- Geração do programa objeto
+		- Execução do programa objeto
+
+			. Execução mais rápida
+			. Prgramas menores
+
+		Interpretação:
+		- Programa fonte executado diretamente
+
+			. Maior flexibiladade
+			. Fácil de programas, porem, ela é mais lenta
+
+
+	CARACTERISTICAS DE UM PROGRAMA:
+
+		- Dentro da área de desenvolvimento de programas nós temos algumas diretrizes que devemos levar em consideração na hora de codificar:
+			. Legibilidade: Facilidade de leitura, compreensão, ortogonalidade (coerencia nas instruções), definição das estruturas.
+
+			. Redigibilidade: Pode conflitar com legibilidade, ortogonalidade, simplicidade da escrita, suporte à abstração, reuso do código,
+			expressividade
+
+			. Condiabilidade (Fazer o que o codigo foi programado para fazer): verificação de tipos, trata exceções, uso de ponteiros, compatibilidade
+			entre compiladores
+
+			. Custo (Analise de impacto): treinamento, codifição, compilação, execução, infra-estrutura
+
+
+	ANÁLISES DE CÓDIGO:
+
+		- Quando o código fonte vai para o compilador, há tres tipos de análise:
+
+			- Análise Léxica:
+				- Conhecida como scaner/leitura
+				- Primeira fase do processo de compilação
+				- Sua função é fazer a leitura do programa fonte caracter por caracter e agrupar e agrupar os caracteres em simbolos lexicos 
+				conhecidos como token
+				- Nesse processo ela vai: Particionar, Classificar e Eliminar 
+					. Particionar: Vai identificar os elemento lexicos (tokens) e agrupa-los
+					. Classificar: Esses elemento são identificadores, palavras reservadas, números, strings... todo o conteudo relevante para 
+					a codificação do programa
+					. ELiminar: E vai eliminar tudo o que for irrelevante no nosso código (comentários, espaços em branco...)
+
+			- Análise de Sintaxe:
+				- Sintaxe (forma): Componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura
+				- A sintaxe de um programa é a forma que ele define atraves de palavras reservadas, indexação, simbolos especiais, qual a estrutura
+				relacionada pra codificação dentro daquela linguagem especifica
+				- Corretudo do programa
+
+			- Análise de Semantica
+				- Semantica (significado): É o estudo do significado. Incide sobre a relação entre significantes, como: palavras, frases, sinais e
+				símbolos
+			- Logica do programa
+
+
+	PARADIGMAS DE PROGRAMAÇÃO:
+
+		- A forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação
+
+		Dentro desse mundo de paradigmas nós temos alguns:
+			- Orientação a objetos
+			- Procedural
+			- Funcional
+			- Estruturado
+			- Computação distribuida
+			- Lógico
+
+		Paradigma Estruturado:
+			- Conceitos:
+				. Sequência
+				. Decisão (teste lógico)
+				. Iteração (funções, laços, estruturas condicionais)
+
+			- Utilização:
+				. Problemas simples e diretos
+				. Aprender programação
+
+		Orientação à Objetos:
+			- Paradigma de programação baseado na utilização de objetos e suas interações
+			- Análogo ao mundo real	
+
+			O que é um objeto:
+				- Um objeto é descrito por caracteristicas (atributos) especificas, comportamento (os metodos associados) e estado
+					. Caracteristicas: O que tenho (Atributos)
+					. Comportamento: Sou capaz de fazer (Métodos)
+					. Estado: Como faço (Estados)
+
+		Do ponto de vista de programação: O que é um objeto?
+
+			POO:
+				Classe: 
+				- Alocação em memória
+				- Operações associadas
+
+			ESTRUTURADO:
+				- Alocação de memoria
+				- Operações associadas
+
+		Pilares de Orientação a Objeto:
+			- Herança 
+				. Uma classe filha herda as caracteristicas (atributos, metodos, comportamento, estado) de uma classe mãe 
+			- Encapsulamento
+			- Polimorfismo
+			- Abstração
+		
+		

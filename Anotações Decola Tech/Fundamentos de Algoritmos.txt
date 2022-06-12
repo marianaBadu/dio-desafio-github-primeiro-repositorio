@@ -1,0 +1,185 @@
+FUNDAMENTOS DE ALGORITMOS
+
+	TIPOLOGIAE VARIÁVEIS:
+		
+		Qual a função do computador?
+			- Processar as informações que passamos pra ele (dados/instruções)
+				- Os Dados são tratados e processados para que ele possa virar uma informação para o usuário, e há alguns tipos de dados:
+
+					. Numéricos: Inteiros que são numeros positivos e negativos que não possuem casas decimais (0, 1, 50, 100, -45...) 
+					e Reais são os numeros positivos e negativos com casas decimais (5.95, -8.88, 65.5...)
+
+					. Caracteres: É tudo aquilo que não representamos como um numero, e ficam dentro de aspas duplas ou simples 
+					("Programação", "PROGRAMAÇÃO", "Fone: (25)99865-5741"...)
+
+					. Lógico: Verdadeiro (1) e falso (0)
+
+		Variáveis:
+			- Variáveis são um tipo de estrutura mutável, ela pode possuir variações, é inconstante, incerta e instável
+			- É uma estrutura que irá receber um tipo de dado (int, float, booleano...)
+			- Pode assumir qualquer um dos valores de um determinado conjunto de valores, basta definir o tipo de dado na hora de declarar as 
+			variáveis
+			
+			Regras para declarar as variáveis:
+				. Atribuição de um ou mais caracteres
+				. Primeira letra - não numero
+				. Sem espaço em branco
+				. Vedado, ou seja, não pode utilizar palavras reservadas
+				. Caracteres e numeros
+
+				Ex: nome_usuario, user12, telefone
+			
+			Papeis de uma variável
+				- Ação - Modifica o estado do algoritmo/programa
+				- Controle - Vigiada, controle
+
+			Constante:
+				- Inalteravel
+				- O que não muda
+				- Invariável
+				
+				Ex: A fórmula de PI "pi = 3,14" que é algo que não muda
+
+
+	INSTRUÇÕES PRIMITIVAS:
+
+		- Vão determinar as ações que iremos executar em cima dos nossos dados
+		- Instruções são linguagens de palavras-chaves (vocabulário) de uma determinada linguagem de programação que tem por finalidade comandar
+		um computador que irá tratar os dados
+
+
+	ESTRUTURAS CONDICIONAIS E OPERADORES:
+	
+		- Dado o estado de uma pessoa ou uma coisa existe uma condição para aquilo acontecer
+
+		Condicional:
+			- Expressa uma condição ou uma suposição
+			- Contém ou implica uma suposição ou hipótese
+
+		Operadores Relacionais:
+			=	 igual a
+			<>	 diferente de 
+			>	 maior que
+			<	 menor que
+			>=	 maior ou igual a 
+			<=	 menor ou igual a
+
+		Operadores Lógicos
+			- AND
+			- OR 	
+			- NOT
+
+			Quando utilizar:
+				- Verificação de V ou F
+				- Substituição
+					. Encadeamento de condições
+
+			ADN (inserção):
+			- Condição verdadeira
+				. Todas devem ser satisfeitas
+
+			OR (união):
+			- Condição verdadeira
+				. Apenas uma das condições deve ser verdadeira
+
+			NOT (negação):
+			- Operador de negação
+			- Inversão do resultado lógico
+
+
+	ESTRUTURAS DE REPETIÇÃO:
+
+		- Dado que eu preciso que um pedaço do meu código seja executado mais de uma vez com diferentes parametros/valores dentro de sua váriaveis,
+		eu preciso que haja uma repetição/loop, mas para que essa repetição não fique em loop constantemente, precisamos de condições de parada.
+
+			Condições de parada:
+				- Número de repetição pré-fixada
+				- Condição a ser satisfeita
+
+			Vantagens de utilizar uma estrutura de repetição:
+				- Redução de linhas
+				- Compreensão facilitada
+				- Redução de erros
+
+			Há mais de uma estrutura de repetição:
+				- Enquanto... faça
+				- Repita... até
+				- Para... de... até... faça
+
+				Ex:
+				grama = Falso
+		
+				Enquanto (grama == falso) faça
+					<instrução de cortar grama>
+					<atualizar grama>
+	
+				Fim enquanto
+
+		Obs: Conseguimos usar estruturas de condição e estruturas de repetição mescladas
+	
+			Ex:
+			Enquanto (<condição>)
+
+				Se (<condição>)
+					<instrução>
+				fimse
+
+				...
+
+			fim enquanto
+
+
+	VETORES E MATRIZES:
+		
+		- Um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado, ou seja, um vetor é uma variavel que possui uma sequencia
+		- Matriz é uma tabela organizada em linhas e colunas no formato M x N, onde M representa o numero de linhas (horizontal) e o N o número 
+		de colunas (vertical)
+
+			Matrizes:
+				- Coleção de variáveis
+				- Contiguas em memórias
+				- Índices
+
+
+	O QUE SÃO FUNÇÕES:
+
+		- As funções, ou sub-rotinas são blocos de instruções que realizam tarefas especificas
+		- Vem da ideia da decomposição de algoritmo, reaproveitar o código, modularização do problema
+		- São blocos de instruções (código), identificados por nomes e parametros
+
+			O que temos atrelados a uma função:
+				- Definição
+				- Nome
+				- Invocação
+				- Variável (são utilizadas apenas dentro da função e são destruídas ao encerrar a função)
+
+			Vantagens das funções:
+				- Modularização do programa
+				- Código mais claro e conciso
+				- Reutilização de instruções
+
+
+	INSTRUÇÕES DE ENTRADA/SAÍDA:
+	
+		Instruções de entrada:
+		- Consiste na inserção e recebimento de dados do mundo real, por meio de ação de alguma interface, ou seja, teclado, mouse, arquivos, entre outros
+
+		Instruções de saída:
+		- Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface
+		- Os formatos podem variar desde simples arquivos binários até complexas querys de banco de dados
+
+			Existem dois  tipos de saídas dentro de um programa (algoritmo)
+				- Sáida programada (pode ser condicional (guarda o dispositivo para imprimir o resultados) ou incondicional)
+				- Saída por interrupção (definida pelos periféricos)
+			
+
+	
+		
+
+		
+
+		
+
+		
+			
+		

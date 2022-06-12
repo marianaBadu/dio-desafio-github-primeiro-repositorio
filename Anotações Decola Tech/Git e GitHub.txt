@@ -1,0 +1,121 @@
+GIT E GITHUB:
+
+	- Git é diferente do GitHub
+	- Git e GitHub são utilizados no dia a dia de pessoas que desenvolvem software por um motivo simpes: ter uma forma fácil de gerenciar o código 
+	fonte da aplicação, do sistema e do produto.
+
+		O que é Git?
+			- O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas
+			de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com
+			open source.
+
+		GitHub:
+			- O GitHub tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração 
+			entre devs, utilizando o Git como sistema de controle.			
+
+			Beneficicos de aprender GIT e GITHUB:
+				1. Controle de versão
+				2. Armazenamento em nuvem
+				3. Trabalhando em equipe
+				4. Melhorar seu código
+				5. Reconhecimento
+
+
+	NAVEGAÇÃO BÁSICA NO TERMINAL DO GIT:
+
+		- O Git é um CLI (command-line interface) diferente de GUI (graphical user interface).
+		
+			Comandos básicos para utilizar o Git:
+				- Os comandos utilizados no windows são:
+					
+				WINDOWS (derivado do shell):
+				- cd (navegar entre as pastas)
+				- dir (lista de diretórios da pasta que estamos situados)
+				- mkdir (criar uma pasta/diretórios)
+				- del/rmdir (del = deleta arquivos dentro do repositório - rmdir = deleta a pasta em si)
+				- cls (responsável por limpar o terminal)
+				- TAB (a tecla TAB pode autocompletar o nome de alguma pasta que começamos a escrever no terminal)
+
+	
+	TÓPICOS FUNDAMENTAIS PARA ENTENDER O FUNCIONAMENTO DO GIT:
+	
+		- SHA1
+			. A sigla SHA significa Secure Hash Algorithm (algoritmo de hash seguro), é um conjunto de funções hash criptografadas projetadas
+			pela NSA (Agencia de segurança nacional dos EUA)
+			. A encriptação gera um conjunto de caracteres identificador de 40 digitos
+
+			Comando: openssl sha1
+
+		- Objetos fundamentai
+		- Sistema distribuído
+		- Segurança
+
+
+	OBJETOS INTERNOS DO GIT:
+
+		- BLOBS (bloco basico)
+			. Contem metadados do git (tipo do objeto, tamanho da string, tamanho do arquivo etc)
+
+		- TREES (armazenando e apontando para tipos de blobs diferentes)
+			. Armazenam blobs
+			. Tambem contem metadados
+			. Guarda o nome do arquivo
+			. Monta a estrutura de onde estão localizados os arquivos
+			. Podem apontar para blobs ou outras trees
+			. Utilizada para apontar para diretorios que tem arquivos (as trees) ou para os proprios arquivos (blobs)
+
+		- COMMITS
+			. É o objeto que vai juntar tudo e vai dar sentido para a alteração feita
+			. Os commits tambem possuem sha1
+			. Os commits apontam para as trees e para as blobs dando significancia para as alterações feitas nelas
+
+	
+	CHAVES SSH E TOKENS:
+		
+		Chave SSH:
+			- Forma de estabelecer uma conecxão segura e encriptada entre duas máquinas
+			
+
+	PRIMEIROS COMANDOS COM O GIT:
+		
+		Iniciar o GIT:
+			- git init (cria um novo repositorio do GIT)
+			- git add (realiza a inclusão ou modificação do arquivo no diretório local)
+			- git commit (representa um snapshot do seu repositório em determinado momento)
+
+		Arquivo Markdown: 
+			- É como se fosse um arquivo html, mas a forma de escrita dele é diferente
+			- Forma humanizada de escrever um arquivo HTML, ou seja, mais facil
+
+				EX:		HTML					MARKDOWN
+					<h1>Titulo nivel 1</h1>		   #Titulo nivel 1
+					<h2>Titulo nivel 2</h2>		   #Titulo nivel 2   		ETC...
+
+		Flags:
+		. ls (lista o que tem dentro do diretório)
+		. ls -a (mostra arquivos ocultos)
+		. cd .. (volta um nivel)
+
+
+	CICLO DA VIDA DOS ARQUIVOS NO GIT:
+
+		GIT INIT:
+			- Cria um repositorio no git dentro de uma pasta
+			
+			TRACKED - Unmodified, Modified, Staged (arquivos que o git tem ciencia)
+
+				. Unmodified: arquivo que ainda não foi modificado
+				. Modified: arquivo que sofreu modificação
+				. Staged: é onde ficam os arquivos que estão se preparando para fazer parte de outro tipo de agrupamento
+
+			UNTRACKED - (arquivos que o git não tem ciencia)
+
+
+		
+
+
+			
+				
+		
+		
+	

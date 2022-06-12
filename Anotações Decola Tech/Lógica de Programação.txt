@@ -1,0 +1,43 @@
+LÓGICA DE PROGRAMAÇÃO:
+
+	O QUE É LÓGICA:
+
+		Problema =  é uma questão que foge a uma determinada regra, ou melhor, é um desvio de percurso, o qual impede de atingir um objetivo com
+		eficiencia e eficácia
+
+		Lógica = parte da filosofia que trata das formas do pensamento em geral (decução, indução, hipótese, inferência etc) e das operações
+		intelectuais que visam à determinação do que é verdadeiro ou não
+
+		- Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa
+
+		- Os seres humanos podem prever comportamentos, os computadores não
+
+
+	TÉCINAS DE LÓGICA DE PROGRAMAÇÃO:
+
+		Técina Linear:
+			- Modelo tradicional
+			- Não tem vínculo
+				. Estrutura hierárquica
+				. Programação de computadores
+			- Execução sequenciada, ações que possuem dependencia entre si
+
+		Técnica Estruturada:
+			- Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato)
+				Processamento de dados:
+					. Escrita 
+					. Entendimento
+					. Validação
+					. Manutenção
+
+		Técina Modular:
+			- Partes independentes que são controladas por um conjunto de regras
+				. Dados de entrada
+				. Processo de transformação
+				. Dados de saída
+
+			- Com essa técina nós conseguimos:
+				. Simplificação do algoritmo
+				. Decompor o problema
+				. Verificação do módulo/ pequenas partes
+
